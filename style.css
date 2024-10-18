@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family: 'EB Garamond';font-size: 22px;
+	background-color:#f3f3f3;
+}
+
+
+.MainLogo {
+	
+	max-width:1200px;
+	margin:auto;
+	padding:30px;
+	text-align: center;
+}
+
+.MainLogo  img {
+	width:100%;
+	max-width:400px;
+}
+
+
+.JobTitle{
+	font-weight:bold;
+	text-align: center;
+	font-size: 30px;
+	margin-top:-60px;
+	color:#afaea8;
+}
+
+.IntroText{
+	text-align: center;
+	font-size:35px;
+	max-width:600px;
+	line-height:1.2;
+	margin:auto;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+
+.BoxImage img{
+	width:100%;
+	max-width:450px;
+	padding:20px;
+	
+}
+
+.BoxesWrapper{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.BoxIndWrapper{
+	padding-bottom:30px;
+}
+
+.TopLinks{
+	text-align: center;
+}
+
+.TopLinks a{
+	color:#686868;
+	text-decoration:none;
+	padding:10px;
+}
+
+.TopLinks a:hover{
+	text-decoration:underline;
+}
